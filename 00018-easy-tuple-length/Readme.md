@@ -1,4 +1,15 @@
-## tuple
+## 解题过程
+
+### 注意：只读，仅数组，并返回数组长度
+
+```js
+function getLength(arr) {
+  if (!arr instanceof Array) return
+  return arr.length
+}
+```
+
+## 知识点：Tuple
 
 个人理解含义：具体类型的数组
 
@@ -15,4 +26,4 @@ type strAndNumLength = tupleArr ['length'] // 具体的长度(移到变量即可
 // 而 js 数组
 const jsArr = ['123', 4]
 const jsArrLength = jsArr.length  // 非具体长度(移到变量即可查看)：const jsArrLength: number
-```
+``
