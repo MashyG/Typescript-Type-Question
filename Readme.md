@@ -7,7 +7,10 @@
   `pnpm`
 
 ### 如何做题
-#### 修改templatets，使得test-cases.ts不报错即可
+
+1. 拉取题目到本地
+2. 修改 `template.ts`，使得 `test-cases.ts` 不报错即可
 
 ### 解题思路
-#### js对比法
+
+`js对比法`
