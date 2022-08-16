@@ -15,7 +15,7 @@
 
 - 定义变量：`infer`
 - 取对象 T 的 key：`keyof T`
-- 遍历数组 K：`[P in K]`
+- 遍历获取对象 K 的 key：`[P in K]`
 - 取数组 T 每一项：`T[number]`
 - 数组中 Rest 的使用：`...`
 - 取数组长度：`T['length']`
