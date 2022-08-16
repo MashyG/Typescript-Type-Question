@@ -5,4 +5,4 @@ type LengthOfString2<
   ? LengthOfString<Rest, [...Arr, First]>
   : Arr['length']
 
-// 与（、medium/00298-medium-length-of-string/template.ts）一致
+// 与（/medium/00298-medium-length-of-string/template.ts）一致
